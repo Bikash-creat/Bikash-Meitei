@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow</title>
+    <style>
+        h1{text-shadow: 2px 2px 5px gray;}
+        .box-shadow{background-color: white;
+                    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+                    padding: 30px 10px;
+                    width: 50%;}
+        .inside-box{background-color: white;
+                    padding: 20px 10px;
+                    margin-top: 30px;
+                    width: 50%;
+                    box-shadow: inset 5px 5px 15px rgba(0, 0,0, 0.4);}
+    </style>
+</head>
+<body>
+    <h1>text Shadow</h1>
+
+    <div class="box-shadow">this is <strong> box-shadow</strong></div>
+    <div class="inside-box">this is <strong>Inset Shadow</strong> </div>
+</body>
+</html>

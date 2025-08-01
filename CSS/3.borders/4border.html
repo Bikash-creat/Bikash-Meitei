@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        h1{text-align: center;}
+        .hold{display: block;
+              text-align: center;
+              margin-top: 20px;}
+        .solid , .dashed , .dotted, .radius, .all{margin: 10px 20px;}
+        .solid{background-color: aqua;
+               width:70%;
+               height: 30px;
+               margin-left: 95px;
+               border: 2px solid black;}
+        .dashed{background-color: aqua;
+               width:70%;
+               height: 30px;
+               margin-left: 95px;
+               border: 2px dashed #444;}
+        .dotted{background-color: aqua;
+               width:70%;
+               height: 30px;
+               margin-left: 95px;
+               border: 2px dotted#555;}
+        .radius{background-color: aqua;
+               width:70%;
+               height: 60px;
+               margin-left: 95px;
+               border-radius: 10px;
+               padding-top: 20px;}
+        .all{background-color: aqua;
+               width:70%;
+               height: 90px;
+               margin-left: 95px;
+               border-left: 2px solid black;
+               border-bottom: 3px dashed green;
+               border-top: 3px dotted yellow;
+               border-right: 7px double black;}
+    </style>
+</head>
+<body>
+    <h1>Border Demo</h1>
+    <div class="hold">
+    <div class="solid">This is the demo of <strong> solid border</strong></div>
+    <div class="dashed">This is the demo of <strong>dashed border</strong></div>
+    <div class="dotted">This is the demo of <strong>dotted border</strong></div>
+    <div class="radius">This is the demo of <strong> border radius</strong></div>
+    <div class="all">This is the domo of different borders on each side</div>
+    </div>
+</body>
+</html>
